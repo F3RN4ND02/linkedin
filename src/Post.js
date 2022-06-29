@@ -18,7 +18,7 @@ function Post({name, description, message, photoUrl}) {
         </div>
     </div>
     <div className="post_body">
-        <p>Message goes</p>
+        <p>{message}</p>
     </div>
     <div className="post_button">
     <InputOptions Icon={ThumbUpAltOutlinedIcon} title='Like' color='gray'/>
